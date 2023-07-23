@@ -1,0 +1,103 @@
+/* Add styles for the navbar */
+.navbar {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+/* Menambahkan margin-top pada body agar konten tidak tertutupi oleh navbar */
+body {
+    margin-top: 40px;
+}
+
+/* Add styles for the services section */
+.services {
+    padding: 2rem;
+    text-align: center;
+    position: sticky;
+    top: 40px; /* Sesuaikan nilai top dengan tinggi navbar */
+    background-color: #f9f9f9; /* Tambahkan warna latar belakang sesuai keinginan */
+    z-index: 1; /* Tambahkan z-index agar bagian ini tampil di atas konten yang lain */
+}
+
+.services h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.service-card {
+    /* Service card styles */
+}
+
+.service-card img {
+    /* Service card image styles */
+}
+
+/* Add styles for the contact section */
+.contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+/* Add styles for the navbar */
+.navbar {
+    /* Navbar styles */
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue; /* Warna latar belakang link */
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    height: 15px;
+}
+
+.navbar li a:hover {
+    background-color: black; /* Warna latar belakang link saat dihover */
+}
+
+/* Add styles for the "Terapis Pijat Pria" section */
+.hero {
+    text-align: center; /* Untuk menggeser ke tengah */
+}
+
+.hero h1 {
+    font-size: 3rem; /* Memperbesar ukuran teks */
+}
+
+/* Add styles for the "Alamat" section */
+.address {
+    text-align: center;
+    margin-top: 40px; /* Menambahkan ruang di atas konten */
+}
